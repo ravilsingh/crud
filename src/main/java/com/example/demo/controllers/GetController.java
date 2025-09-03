@@ -8,7 +8,7 @@ public class GetController {
     @GetMapping("/getAPI")
     public String msg()
     {
-        return "API is running!";
+        return "API is running in spring boot Apps";
     }
 
 }
