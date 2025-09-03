@@ -8,7 +8,7 @@ public class GetController {
     @GetMapping("/getAPI")
     public String msg()
     {
-        return "API is running!";
+        return "Welcome to Spring boot API!!";
     }
 
 }
