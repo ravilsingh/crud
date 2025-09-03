@@ -22,6 +22,7 @@ public class StudentController
         return studentService.createStudent(student);
     }
 
+    
     @GetMapping("/getAllStudentsInformation")
     public List<Student> getAllStudents()
     {
